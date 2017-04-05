@@ -1,0 +1,21 @@
+{
+  "name": "mailgun-resend",
+  "version": "1.0.0",
+  "description": "Resend failed MailGun emails",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "MailGun"
+  ],
+  "author": "John Cheesman",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "load-json-file": "^2.0.0",
+    "restler": "^3.4.0",
+    "write-json-file": "^2.0.0"
+  },
+  "bin": "mailgun-resend"
+}
